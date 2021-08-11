@@ -3,12 +3,10 @@ const mongoose = require('mongoose');
 
 const QuoteSchema = new mongoose.Schema({
     quote: {
-        type: String,
-        required: [true, "You must enter a quote."],
+        type: String
     },
     author: {
-        type: String,
-        required: [true,"You must give credit to an author or anonymous"],
+        type: String
     }
 }, { timestamps: true });
 

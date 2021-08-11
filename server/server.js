@@ -2,12 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const nodemailer = require("nodemailer");
+const router = express.Router();
 
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use("/", router);
 
-require('./config/mongoose/config');
+require('./config/mongoose.config');
 require('./routes/routes.js')(app);
 
 app.listen(5000, () => console.log("Now listening on PORT 5000"));
