@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const QuoteSchema = new mongoose.Schema({
     quote: {
         type: String,
-        required: [true, "You must enter an quote name."],
+        required: [true, "You must enter a quote."],
     },
     author: {
         type: String,
