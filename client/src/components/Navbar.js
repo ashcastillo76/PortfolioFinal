@@ -5,7 +5,7 @@ export default function Navbar() {
     return(
 
         <div className="header">
-                <h1><Link to="/">Ashley Castillo</Link></h1>
+                <h1><Link to="/" className="homeLink">Ashley Castillo</Link></h1>
                 <div className="navbar">
                     <ul>
                         <li className="navbar__list"><NavLink to="/about">About</NavLink></li>

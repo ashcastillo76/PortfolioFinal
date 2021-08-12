@@ -13,7 +13,7 @@ export default function Projects() {
                         <div class="col">
                         Confederated Tribes of Grand Ronde 
                         
-                        <a href="https://www.loom.com/share/f732caee3880443f936dfb3a86cd2d5a" target="_blank"><img src={ctgr}/></a>
+                        <a href="https://www.loom.com/share/f732caee3880443f936dfb3a86cd2d5a" target="_blank" rel="noreferrer"><img src={ctgr} alt="CTGR"/></a>
                         </div>
                     </figure>
 

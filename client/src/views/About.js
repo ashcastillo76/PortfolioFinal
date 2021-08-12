@@ -12,7 +12,7 @@ return(
             <div class="row justify-content-center">
                 <div class="col-4">
                     <div className="picBox">
-                        <img className="headshot" src={Headshot}/>
+                        <img className="headshot" src={Headshot} alt="headshot"/>
                     </div>
                 </div>
                 <div class="col-4">
@@ -32,20 +32,20 @@ return(
             </div>
             <div class="col-4">
                 <div className="picBox2">
-                    <img className="honeymoon" src={honeymoon}/>
+                    <img className="honeymoon" src={honeymoon} alt="honeymoon"/>
                 </div>
             </div>
         </div>
         <div className="pics">
             <div class="row justify-content-center"/>
                 <div class="col-4">
-                    <img src={jude}/>
+                    <img src={jude} alt="jude angel wings"/>
                 </div>
                 <div class="col-4">
-                    <img src={boysCool}/>
+                    <img src={boysCool} alt="boys shades"/>
                 </div>
                 <div class="col-4">
-                    <img src={silas}/>
+                    <img src={silas} alt="silas drawing"/>
             </div>
         </div>
 </>

@@ -26,15 +26,17 @@
     font-family:Sacramento;
     text-decoration: none;
     color:#dc5a43;
-    margin-top:30px;
-    margin-left:30px;
+    padding-top:30px;
+    padding-left:30px;
+    height:80px;
 }
 
-.header a:hover{
-    padding:30px;
+.header h1{
+    padding-top:10px;
+}
+
+.homeLink:hover{
     color:#99abab;
-    text-decoration: wavy;
-    text-decoration-color: #dc5a43;
 }
 
 .navbar{
@@ -48,10 +50,12 @@
     padding-top: 10px;
     height:80px;
 }
+
 .navbar li{
     display:inline;
 
 }
+
 .navbar a{
     height:80px;
     padding:10px;
@@ -68,7 +72,7 @@
     background-color:#74837c;
     text-decoration: none;
     opacity:30%;
-    height:80px;
+    padding:30px;
 }
 
 .navbar a:active{
@@ -121,7 +125,6 @@
     min-height: 600px;
     min-width:1300px;
     position:relative;
-
 }
 
 .row justify-content-center{

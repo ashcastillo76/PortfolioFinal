@@ -9,9 +9,9 @@ const footer = () => {
         <div className="footer">
             <Router>
                 <div className="footImgContainer">
-                    <a href="https://www.facebook.com/ashley.castillo76/"><img src={ facebook }/></a>
-                    <a href="https://www.instagram.com/hecallsmesassypants/"><img src={ instagram }/></a>
-                    <a href="mailto:ashcastillo76@gmail.com"><img src={ email }/></a>
+                    <a href="https://www.facebook.com/ashley.castillo76/"><img src={ facebook } alt="Facebook"/></a>
+                    <a href="https://www.instagram.com/hecallsmesassypants/"><img src={ instagram } alt="Insta"/></a>
+                    <a href="mailto:ashcastillo76@gmail.com"><img src={ email } alt="email"/></a>
                 </div>
             </Router>
         </div>

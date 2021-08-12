@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Row, Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 const Contact = () => {
   const [status, setStatus] = useState("Submit");
